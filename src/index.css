@@ -1,0 +1,7 @@
+/* Move @import to the top */
+@import 'remixicon/fonts/remixicon.css'; /* Import Remix Icon first */
+
+/* Tailwind directives should come after */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
