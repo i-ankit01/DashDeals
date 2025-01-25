@@ -10,6 +10,9 @@ const ProductDetails = () => {
         <img className='bg-red-500 w-[90%] h-[80%] mt-5 rounded-md ' src="/" alt="" />
 
       </div>
+      <div className='w-[60%] h-[100%] bg-red-400 ml-14 p-16 '>
+        <h1 className='text-4xl font-bold '>Eyeshadow Palette with Mirror</h1>
+      </div>
     </div>
     </>
   )
