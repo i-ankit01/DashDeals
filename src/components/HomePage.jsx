@@ -14,11 +14,11 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="flex flex-grow pt-[60px] "> 
-        <div className='fixed top-[60px] left-0 w-[15%] h-[calc(100%-60px)] bg-red-400'>
+        <div className='fixed top-[60px] left-0 w-[15%] h-[calc(100%-60px)] hidden md:block bg-red-400'>
         <Menu />
         </div>
         {/* <div className="flex-grow overflow-y-auto">  */}
-        <div className="ml-[15%] w-[85%] overflow-y-auto  ">  
+        <div className="md:ml-[15%] md:w-[85%] overflow-y-auto ">  
           <Card />
         </div>
       </div>
